@@ -1,7 +1,7 @@
 library crypto_keys.algorithms;
 
 import 'package:crypto_keys/src/pointycastle_oaep256.dart';
-import 'package:pointycastle/export.dart' as pc;
+import 'package:pointycastle/export.dart' as pc hide GCMBlockCipher;
 import 'dart:math' show Random;
 import 'pointycastle_ext.dart' as pc;
 import 'dart:typed_data';
